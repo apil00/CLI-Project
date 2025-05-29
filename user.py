@@ -11,6 +11,13 @@ import csv
 # git add .
 # git commit -m "Initial commit"
 
+###################
+# 1. change the code
+# 2. git add .
+# 3. git commit -m "Your commit message"
+# 4. git push
+###################
+
 
 def create_connection():
     try:
