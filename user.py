@@ -1,6 +1,17 @@
 import sqlite3
 import csv
 
+
+# git config --global user.name "Your Name"
+# git config --global user.email "your email"
+
+# git init
+# git status => to check the status of the repository
+# git diff => to check the changes made in the files
+# git add .
+# git commit -m "Initial commit"
+
+
 def create_connection():
     try:
         con = sqlite3.connect('users.sqlite3')
