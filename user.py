@@ -1,5 +1,5 @@
-import csv
 import sqlite3
+import csv
 
 def create_connection():
     try:
